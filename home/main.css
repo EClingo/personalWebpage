@@ -1,0 +1,58 @@
+
+
+/* purple color #AC5391
+green color #5364AC
+ blue color #5364AC */
+header{
+    grid-area: header;
+}
+#sidebar{
+    grid-area: sidebar;
+    font-size: 1.4em;
+    
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+#construction{
+    grid-area: construction;
+    background-color: #eef10c;
+    border-top: 2px solid black;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    width: 70%;
+    border-radius: 2%;
+    
+}
+
+
+#container {
+      display: grid;
+    grid-template-columns: 1fr 1fr 1 fr; 
+     grid-template-areas: 
+        "header header header"
+        "construction" "construction" "construction"
+        "sidebar" "main" "main"
+        "sidebar" "main" "main"
+        "footer" "footer" "footer"
+    ; 
+}
+
+body {
+    background-color: #AC9B53;
+   
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+}
+header p{
+    text-align: center;
+    font-size: 1.5em;
+}
