@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eric W Clingo</title>
-    <link rel="stylesheet" href = "main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "app/scss/styles.scss">
     
 </head>
 <body>
-    <header>
+    <header class="flex">
         <h1>Eric W Clingo</h1>
         <p>How can we help each other?</p>
     </header>
     <section id="container">
     <aside>
-        <nav id="sidebar">
+        <nav id="sidebar" class="flex">
+            <div class="sidebar_links">
+                <a href="http://">Home</a>
+                <a href="http://">About Me</a>
+                <a href="http://">Projects</a>
+                <a href="http://">Contact</a>
+            </div>
             <ul>
                 <li><a href="aboutMe.html">About Me</a></li>
                 <li><a href="Projects.html">Projects</a></li>
@@ -38,8 +46,9 @@
             coding projects using the tools and languages I have learned, please check out the Projects
             link. If you are interested in my services or future collaboration, please follow the Contact link.
         </p>
-    </main>
     </section>
+    <script src="/app/js/script.js"></script>
+    </main>
     <footer>
 
     </footer>
